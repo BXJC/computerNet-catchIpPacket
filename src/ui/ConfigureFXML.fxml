@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="148.0" prefWidth="497.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ConfigureController">
+   <children>
+      <Label layoutX="47.0" layoutY="67.0" text="NetWorkInterface:" />
+      <Button layoutX="378.0" layoutY="63.0" mnemonicParsing="false" onAction="#OK" prefHeight="23.0" prefWidth="58.0" text="OK" />
+      <ComboBox fx:id="NetworkInterface" layoutX="185.0" layoutY="63.0" prefWidth="150.0" />
+   </children>
+</AnchorPane>
